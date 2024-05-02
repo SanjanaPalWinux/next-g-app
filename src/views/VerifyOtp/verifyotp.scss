@@ -1,0 +1,18 @@
+.verify-otp {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 1rem;
+
+  .left-section {
+    width: 100%;
+    text-align: center;
+  }
+
+  .right-section {
+    width: 100%;
+
+    form {
+      width: 450px;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+.account-type {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 1rem;
+  gap: 40px;
+
+  .left-section {
+    text-align: left;
+    input[type="checkbox" i] {
+      width: 2rem;
+      height: 2rem;
+    }
+  }
+
+  .right-section {
+    width: 540px;
+    .cards {
+      padding: 2rem;
+      margin-bottom: 1rem;
+      display: flex;
+      flex-direction: column;
+      border: 1px solid gray;
+      background-color: rgb(243, 238, 238);
+      border-radius: 10px;
+      width: 450px;
+      text-align: justify;
+
+      .info {
+        display: flex;
+        justify-content: space-between;
+        margin: 1rem 1rem 1rem 0.8rem;
+
+        svg {
+          width: 2rem;
+          height: 2rem;
+        }
+      }
+    }
+  }
+}
